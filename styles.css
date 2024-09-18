@@ -1,0 +1,145 @@
+@font-face {
+    font-family: norse;
+    src: url(assets/Norse-Bold.otf);
+  }
+
+.sign-up-container{
+    display: flex;
+}
+
+.logo-content{
+    background-image: url("assets/leaf.jpg");
+    height: 100vh;
+    width: 40vw;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 150px;
+}
+
+.logo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00000080;
+    height: 140px;
+}
+
+.logo-image{
+    height: 120px;
+    width: 90px;
+}
+
+.logo-text{
+    color: white;
+    font-size: 5em;
+    font-family: norse, roboto;
+}
+
+.sign-up-content{
+    width: 60vw;
+    background-color: #F8F8F8;
+    padding-top: 70px;
+}
+
+.description{
+    font-family: "Roboto";
+    font-size: 25px;
+    font-weight: 600;
+    text-align: left;
+    margin-left: 30px;
+    max-width: 700px;
+}
+
+.form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    background-color: #FFFFFF;
+    margin: 50px 0px 50px 0px;
+    padding: 8px 0px 8px 30px;
+}
+
+.form h3{
+    font-size: 26px;
+    margin-top: 12px;
+}
+
+.input-container{
+    display: flex;
+    margin-bottom: 8px;
+    gap: 60px;
+}
+
+label{
+    font-family: "Roboto";
+    font-size: 12px;
+    font-weight: 500;
+}
+
+#last_name{
+    border: 2px solid blue;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+.create-account-button{
+    height: 38px;
+    width: 200px;
+    color: #FFFFFF;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 600;
+    border-width: 0px;
+    border-radius: 4px;
+    margin: 0px 0px 0px 30px;
+    background-color: #596D48;
+}
+
+.log-in{
+    margin-left: 30px;
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.log-in-text{
+    color: #596D48;
+    font-family: "Roboto";
+}
+
+.error-text{
+    color: red;
+    font-size: 14px;
+    margin-top: 0px;
+    font-family: "Roboto";
+}
+
+.input-item{
+    height: 20px;
+    width: 180px;
+    border: 1px solid grey;
+    border-radius: 4px;
+}
+
+input[type="password"]:invalid {
+    border: 2px solid red;
+}
+  
+input[type="password"]:focus {
+    border: 2px solid blue;
+}
+
+a{
+    color: #FFFFFF;
+}
+
+.author-text{
+    color: white;
+    align-self: center;
+    margin-bottom: 20px;
+}
